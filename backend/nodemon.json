@@ -1,0 +1,23 @@
+{
+  "watch": [
+    "server.js",
+    "routes",
+    "models",
+    "middleware"
+  ],
+  "ignore": [
+    "node_modules/**",
+    "frontend/**",
+    ".git/**",
+    ".DS_Store",
+    ".vite/**",
+    ".env",
+    "*.log",
+    "*.tmp",
+    "**/*~",
+    "**/*.swp"
+  ],
+  "ext": "js,json",
+  "delay": "2000",
+  "legacyWatch": true
+}
